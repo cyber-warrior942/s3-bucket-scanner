@@ -106,7 +106,12 @@ When providing bucket names (either with `-b` or in a bucket list file), you can
 ```
 
 ## Output
+
+### Scanning Multiple Buckets
 ![usage-output](https://github.com/user-attachments/assets/3404f5c9-3c53-4c7b-8a86-7a1c6b45bd43)
+
+### Scanning Single Bucket
+![image](https://github.com/user-attachments/assets/3e65d6e2-b2ae-4542-84f3-c2dab369c991)
 
 ## Security Notes
 
