@@ -33,7 +33,7 @@ This tool helps security professionals and AWS administrators identify potential
    git clone https://github.com/yourusername/s3-bucket-scanner.git
    cd s3-bucket-scanner
    ```
-2. Clone this repository:
+2. Install dependencies:
    ```bash
    pip3 install -r requirements.txt
    ```
