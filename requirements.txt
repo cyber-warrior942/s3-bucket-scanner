@@ -1,0 +1,5 @@
+# AWS S3 Bucket Scanner Requirements
+boto3>=1.26.0      # AWS SDK for Python
+awscli>=1.27.0     # AWS Command Line Interface
+colorama>=0.4.4    # For colored terminal output
+typing-extensions>=4.3.0  # For improved type hints in Python 3.6+
