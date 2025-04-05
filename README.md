@@ -33,8 +33,11 @@ This tool helps security professionals and AWS administrators identify potential
    git clone https://github.com/yourusername/s3-bucket-scanner.git
    cd s3-bucket-scanner
    ```
-
-2. Make the script executable:
+2. Clone this repository:
+   ```bash
+   pip3 install -r requirements.txt
+   ```
+3. Make the script executable:
    ```bash
    chmod +x s3-bucket-scanner.py
    ```
