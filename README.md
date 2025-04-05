@@ -105,35 +105,8 @@ When providing bucket names (either with `-b` or in a bucket list file), you can
 ./s3-bucket-scanner.py -l my_buckets.txt -p prod-account -r us-west-2
 ```
 
-## Sample Output
-
-```
-Starting S3 bucket misconfiguration scan using profile 'default' in region 'us-east-1'
-Scanning 1 bucket(s)...
-
-Scanning bucket: my-bucket (region: us-east-1)
-  Scanning prefix: (root)
-    ls: ENABLED
-    cp (write): DISABLED
-    mv: DISABLED
-    rm: DISABLED
-    cp from (read): ENABLED
-
-  Scanning prefix: uploads/
-    ls: ENABLED
-    cp (write): ENABLED
-    mv: ENABLED
-    rm: ENABLED
-    cp from (read): ENABLED
-
-Scan Summary:
-
-Bucket: my-bucket (region: us-east-1)
-  Prefix (root) has potential misconfigurations: ls, cp from (read)
-  Prefix uploads/ has potential misconfigurations: ls, cp (write), mv, rm, cp from (read)
-
-Scan complete.
-```
+## Output
+![usage-output](https://github.com/user-attachments/assets/3404f5c9-3c53-4c7b-8a86-7a1c6b45bd43)
 
 ## Security Notes
 
