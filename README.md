@@ -25,6 +25,60 @@ This tool helps security professionals and AWS administrators identify potential
 - Python 3.6+
 - AWS CLI installed and configured
 - Valid AWS credentials with permissions to test S3 operations
+## Installing and Configuring AWS CLI
+
+Before using the S3 Bucket Misconfiguration Scanner, you need to install and configure the AWS Command Line Interface (CLI).
+
+### Installing AWS CLI
+
+#### On Windows:
+1. Download the AWS CLI MSI installer from the [AWS CLI website](https://aws.amazon.com/cli/)
+2. Run the downloaded MSI installer and follow the instructions
+3. Verify installation by opening Command Prompt and typing:
+   ```
+   aws --version
+   ```
+
+#### On macOS:
+Using Homebrew:
+```bash
+brew install awscli
+```
+Or with pip:
+```bash
+pip install awscli
+```
+
+#### On Linux:
+Using pip:
+```bash
+pip install awscli
+```
+Or on Debian/Ubuntu:
+```bash
+sudo apt-get update
+sudo apt-get install awscli
+```
+
+### Configuring AWS CLI
+
+1. Get your AWS access key ID and secret access key from the AWS Management Console
+   - Log in to the AWS Management Console
+   - Click on your username at the top right and select "Security credentials"
+   - Under "Access keys", create a new access key
+
+2. Configure AWS CLI using your credentials:
+   ```bash
+   aws configure --profile PROFILE_NAME
+   ```
+
+3. Enter the requested information:
+   ```
+   AWS Access Key ID: YOUR_ACCESS_KEY
+   AWS Secret Access Key: YOUR_SECRET_KEY
+   Default region name: YOUR_PREFERRED_REGION (e.g., us-east-1)
+   Default output format: json
+   ```
 
 ## Installation
 
