@@ -15,7 +15,9 @@ AWS S3 Bucket Misconfiguration Scanner
 ======================================
 
 A tool to scan AWS S3 buckets for permission misconfigurations.
-
+Developed By:
+------------
+  Usama Zahoor
 Usage:
 ------
   Single bucket:    ./s3-bucket-scanner.py -b BUCKET_NAME -p AWS_PROFILE [-r REGION]
