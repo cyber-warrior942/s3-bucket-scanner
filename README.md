@@ -84,7 +84,7 @@ sudo apt-get install awscli
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/s3-bucket-scanner.git
+   git clone https://github.com/cyber-warrior942/s3-bucket-scanner.git
    cd s3-bucket-scanner
    ```
 2. Install dependencies:
